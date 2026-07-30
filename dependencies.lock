@@ -1,0 +1,65 @@
+dependencies:
+  esp-idf-lib/esp_idf_lib_helpers:
+    component_hash: 689853bb8993434f9556af0f2816e808bf77b5d22100144b21f3519993daf237
+    dependencies: []
+    source:
+      registry_url: https://components.espressif.com/
+      type: service
+    targets:
+    - esp32
+    - esp32c2
+    - esp32c3
+    - esp32c5
+    - esp32c6
+    - esp32c61
+    - esp32h2
+    - esp32p4
+    - esp32s2
+    - esp32s3
+    version: 1.4.0
+  esp-idf-lib/hd44780:
+    component_hash: 61dbd00fd6c41489d01c70db4350617e16d0f99bd6deb81cfed5b30c9c298cf4
+    dependencies: []
+    source:
+      registry_url: https://components.espressif.com/
+      type: service
+    targets:
+    - esp32
+    - esp32c2
+    - esp32c3
+    - esp32c5
+    - esp32c6
+    - esp32c61
+    - esp32h2
+    - esp32p4
+    - esp32s2
+    - esp32s3
+    version: 1.3.0
+  grrtzm/vl53l1x_library:
+    component_hash: 845575d40220f911d635e1f3ac3209863d79ec5e17e93a6dea8345d0e082e854
+    dependencies:
+    - name: idf
+      require: private
+      version: '>=5.5.2'
+    source:
+      registry_url: https://components.espressif.com/
+      type: service
+    targets:
+    - esp32
+    - esp32s2
+    - esp32s3
+    - esp32c3
+    - esp32c6
+    version: 0.3.1
+  idf:
+    source:
+      type: idf
+    version: 6.0.1
+direct_dependencies:
+- esp-idf-lib/esp_idf_lib_helpers
+- esp-idf-lib/hd44780
+- grrtzm/vl53l1x_library
+- idf
+manifest_hash: 1fed711d5566305a1743466dd7b4c825b75838549580c6b9f43b40b02c70bed4
+target: esp32
+version: 3.0.0

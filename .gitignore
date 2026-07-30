@@ -1,0 +1,15 @@
+# ESP-IDF Build and Config Artifacts
+build/
+sdkconfig
+sdkconfig.old
+sdkconfig.ci
+
+# Managed Components (Downloaded automatically by idf.py)
+managed_components/
+
+# Editor / IDE settings (including Vim swap files)
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
